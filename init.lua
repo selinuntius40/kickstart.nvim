@@ -1020,7 +1020,7 @@ do
   -- require 'kickstart.plugins.autopairs'
   -- require 'kickstart.plugins.neo-tree'
 
-require('gitsigns').setup{ 
+require('gitsigns').setup{
   signs = {
     add          = { text = '┃' },
     change       = { text = '┃' },
