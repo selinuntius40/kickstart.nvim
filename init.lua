@@ -1028,6 +1028,9 @@ do
   -- require 'kickstart.plugins.autopairs'
   require 'kickstart.plugins.neo-tree'
 
+  vim.cmd("language en_GB.UTF-8")
+  vim.opt.langmenu = 'en_GB.UTF-8'
+
   -- NOTE: You can add your own plugins, configuration, etc. in `lua/custom/plugins/*.lua`.
   --
   -- For independent modules, uncomment the convenience loader:
